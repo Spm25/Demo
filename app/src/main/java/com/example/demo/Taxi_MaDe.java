@@ -1,6 +1,8 @@
 package com.example.demo;
 
-public class Taxi_MaDe {
+import java.io.Serializable;
+
+public class Taxi_MaDe implements Serializable {
     private int id;
     private String soXe;
     private double quangDuong;
